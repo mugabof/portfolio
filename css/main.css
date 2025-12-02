@@ -1,89 +1,93 @@
-/* Removes unwanted styling from the page */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border: none;
-  max-width: 100%;
-}
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
 
-.navbar {
-  width: 100%;
-  padding: 26px 60px;
-  display: flex;
-  justify-content: space-between;
-}
+        body {
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
 
-li {
-  display: inline-block;
-  list-style-type: none;
-  margin: 0 12px;
-}
-.hero {
-  background-image: url('/images/hero.png');
-  height: 500px;
-  padding-top: 219px;
-  padding-left: 103px;
-}
+        .left-section {
+            background-color: #035c67;
+            color: white;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 60px;
+        }
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 15px;
-}
+        .left-section h1 {
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
 
-button {
-  margin-top: 35px;
-  padding: 12px 30px;
-  background: #52647E;
-  color: white;
-  border-radius: 10px;
-}
+        .left-section h3 {
+            color: #f5c400;
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
 
-.journey {
-  background: #618379;
-  padding: 57px 0;
-}
+        .left-section p {
+            margin-top: 10px;
+            color: #ccc;
+        }
 
-h2 {
-  color: white;
-  font-size: 32px;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 57px;
-}
+        nav {
+            position: absolute;
+            top: 30px;
+            left: 60px;
+        }
 
-.journey-list {
-  display: flex;
-  width: 80%;
-  margin: 0 10%;
-  justify-content: space-between;
-}
+        nav h2 {
+            color: #f5c400;
+            margin-bottom: 10px;
+        }
 
-.journey-card {
-  width: 30%;
-  background-color: white;
-  padding: 25px;
-  border-radius: 40px;
-  color:gray;
-}
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
 
-.journey-image {
-  border-radius: 25px;
-  margin-bottom: 25px;
-}
+        nav ul li a {
+            color: #dce6e8;
+            text-decoration: none;
+            font-weight: 500;
+        }
 
-h3 {
-  font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 12px;
-  color: black;
-}
-footer {
-  background: #333232;
-  text-align: center;
-  color: white;
-  padding: 30px;
-}
+        .right-section {
+            width: 50%;
+            background: url("/images/CEMENT\ WALLPAPERf.jpg") no-repeat center center/cover;
+            position: relative;
+        }
+
+        .socials {
+            position: absolute;
+            top: 50%;
+            right: 20px;
+            transform: translateY(-50%);
+            background-color: #f5c400;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .socials a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .profile-pic {
+            
+        }
+
+        
