@@ -3,39 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mugabo portfolio</title>
+    <title>Daniel Martinez Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
-    <div class="left-section">
-        <nav>
-            <h2>Daniel Martinez</h2>
-            <ul>
-                <li><a href="#">Bio</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Photos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+<!-- NAVBAR -->
+<header>
+    <div class="logo">Daniel Martinez</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-        <div class="intro">
-            <h3>Hey, I’m</h3>
-            <h1>Daniel<br>Martinez</h1>
-            <p>Actor / Performer / Model</p>
-        </div>
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-left">
+        <p class="small-text">Hey, I'm</p>
+        <h1>Daniel<br>Martinez</h1>
+        <p class="title">Web Developer</p>
     </div>
 
-    <div class="right-section">
-      <img src="/images/BKGGGG.GIF" alt="Daniel Martinez" class="profile-pic">
-        <div class="socials">
+    <div class="hero-right">
+        <img src="./images/BKGGGG.GIF" alt="Profile Photo">
+
+        <div class="social">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About me</h2>
+    <p>
+        I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click </br>
+        me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like </br>
+        on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+    </p>
+    </br>
+    </br>
+    </br>
+     <p>
+        I’m a passionate Web Developer specializing in both front-end and back-end technologies.</br>
+        I love creating fast, dynamic, and user-friendly digital experiences. With years of experience,</br>
+        I have built multiple applications that help individuals and businesses grow.
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="projects">
+    <h2 class="section-title">Project</h2>
+
+    <div class="project-container">
+
+        <div class="project-box">
+            <h3>Front-end Projects</h3>
+            <img src="./images/Front_end.jpg" alt="Front-end Project">
+            <p>
+                I develop responsive, elegant websites using HTML, CSS, JavaScript and modern frameworks.
+            </p>
+        </div>
+
+        <div class="project-box">
+            <h3>Back-end projects</h3>
+            <img src="./images/Backend.png" alt="Backend Project">
+            <p>
+                I build secure APIs, databases, and server-side logic using Node.js, PHP, and SQL.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+
+    <div class="contact-img">
+        <img src="./images/RRRR.JPG" alt="Contact Photo">
+    </div>
+
+    <div class="contact-info">
+        <h2>Contact</h2>
+
+        <h4>Representation</h4>
+        <p><b>Manager:</b> Bruce Robertson<br>Email: bruce@mail.com</p>
+
+        <p><b>Commercial Agent:</b><br>James Doe<br>Email: james@example.com</p>
+
+        <p><b>PR Agent:</b><br>Sara Smith<br>Email: sara@mail.com</p>
+
+        <div class="contact-social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+</section>
 
 </body>
 </html>
